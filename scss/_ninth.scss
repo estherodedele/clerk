@@ -1,0 +1,50 @@
+.ninth {
+    display: flex;
+    font-size: 12px;
+    text-decoration: none;
+    margin-top: 2rem;
+    justify-content: space-between;
+}
+
+.last-footer {
+    display: flex;
+}
+
+.texte {
+    color: $fourth-color;
+    padding-right: 5px;
+    text-decoration: none;
+}
+
+.copy {
+    color: $fourth-color;
+    text-decoration: none;
+}
+
+.texts {
+    padding-left: 10px;
+}
+
+@media screen and (max-width: 480px) {
+    .ninth {
+        margin-top: 5rem;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+
+    .last-footer {
+        padding-bottom: 5px;
+        padding-right: 20px;
+    }
+
+    .texte {
+        font-size: 16px;
+    }
+    
+    .copy {
+        padding-top: 3px;
+        padding-right: 5px;
+    }
+}
+

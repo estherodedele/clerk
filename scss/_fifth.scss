@@ -1,0 +1,21 @@
+.fifth {
+    margin-top: 2.5rem;
+    display: flex;
+    margin-left: $main-margin;
+    margin-right: $main-margin;
+    align-items: center;
+}
+
+.line {
+    color: rgb(33, 37, 41);;
+    width: 100%;
+    height: 2px;
+    background-color: #e5e2e2;
+    display: block;
+}
+
+.text-two {
+    color: $second-color;
+    margin-left: 15px;
+    margin-right: 15px;
+}

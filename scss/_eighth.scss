@@ -1,0 +1,21 @@
+.eighth {
+    display: flex;
+    justify-content: left;
+    margin-top: 2.5rem;
+    padding-bottom: 3rem;
+    margin-left: $main-margin;
+}
+
+.footer-text {
+    color: $second-color;
+    font-size: 0.8125rem;
+    padding-right: 5px;
+}
+
+.footer-button {
+    font-size: 0.8125rem;
+    
+    &:hover {
+        text-decoration: underline;
+    }
+}

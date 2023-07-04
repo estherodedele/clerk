@@ -1,0 +1,30 @@
+
+$font-stack: 'Inter', sans-serif;
+$first-color: #000;
+$second-color: rgba(0, 0, 0, 0.65);
+$third-color:   #212529;
+$fourth-color:  #fff;
+$main-margin:  1.5rem;
+
+@import 'first';
+@import 'second';
+@import 'third';
+@import 'fourth';
+@import 'fifth';
+@import 'sixth';
+@import 'seventh';
+@import 'eighth';
+@import 'eight';
+@import 'ninth';
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: $font-stack;
+    background-image: url(/images/signin-bg.svg);
+}

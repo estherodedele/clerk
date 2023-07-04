@@ -1,0 +1,38 @@
+.eight-one {
+    display: flex;
+    box-sizing: border-box;
+    background-color:   rgb(104, 66, 255);
+    color: $fourth-color;
+    border-radius: 0.675rem 0.675rem 0px 0px;
+    padding: 0.375rem 1rem;
+    position: absolute;
+    transform: rotate(-90deg) translateX(-10rem);
+    top: 0.5rem;
+    transform-origin: left bottom;
+    margin-top: 4.5rem;
+}
+
+.logo {
+    width: 50;
+    height: 20;
+    padding-left: 3px;
+    color: $fourth-color;
+}
+
+.texts {
+    font-size: 10px;
+    padding-top: 3px;
+}
+
+@media screen and (max-width: 480px) {
+    .eight-one {
+        transform: translateX(2rem) translateY(100%);
+        left: 0px;
+        top: unset;
+        bottom: -18px;
+        border-radius: 0px 0px 0.375rem 0.375rem;
+        
+    }
+
+    
+}

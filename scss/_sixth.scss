@@ -1,0 +1,24 @@
+.sixth {
+    margin-top: 2.5rem;
+    margin-left: $main-margin;
+    margin-right: $main-margin;
+    font-size: 14px;
+    font-weight: 500;
+    color: $first-color;
+    margin-bottom: 15px;
+}
+
+.email {
+    padding-bottom: 5px;
+}
+
+.null-box {
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.16);
+    width: 100%;
+}
